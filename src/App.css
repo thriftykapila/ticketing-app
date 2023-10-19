@@ -1,0 +1,210 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #faf9f6;
+}
+
+.main{
+  display: flex;
+}
+
+.btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+}
+
+/* Table.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.widgets{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Fixed table column widths */
+th {
+  text-align: left;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 40px; /* Adjust the width as needed */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 150px; /* Adjust the width as needed */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 200px; /* Adjust the width as needed */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 200px; /* Adjust the width as needed */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 200px; /* Adjust the width as needed */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 150px; /* Adjust the width as needed */
+}
+th:nth-child(7),
+td:nth-child(7) {
+  width: 150px; /* Adjust the width as needed */
+}
+th:nth-child(8),
+td:nth-child(8) {
+  width: 150px; /* Adjust the width as needed */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  gap: 20px;
+}
+
+.btn1{
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.username{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 15px;
+}
+
+.leadsTable{
+  margin: 10px;
+}
+
+.searchInput{
+  padding: 10px 20px;
+  outline: none;
+  width: 30%;
+  border: 1px solid #333;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 50px 20px 10px;
+}
+
+.no__data{
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 50vh;
+  width: 20vw;
+  position: relative;
+}
+
+.formInput{
+  margin: 10px 0px;
+}
+
+.fGroup{
+  display: flex;
+  gap: 30px;
+}
+
+.textArea{
+  width: 100%;
+  resize: none;
+}
+
+.inputVal{
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(222, 220, 220);
+}
+
+.formBtns{
+  position: absolute;
+  margin-top: 20px;
+  align-self: center;
+  bottom: 0px;
+}
+
+.submitBtn{
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin-inline: 10px;
+}
+
+.addBtn{
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 12px;
+  margin-inline: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
